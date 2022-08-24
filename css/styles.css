@@ -46,6 +46,11 @@ body {font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
 }
 
+.section{
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
 
 /* =======================================HEADER */
 .container {
@@ -74,6 +79,7 @@ align-items: center;
 }
 
 .logo {
+    margin-bottom: 20px;
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
 font-size: 26px;
@@ -123,10 +129,15 @@ color: var(--accent-color);
 /*  =========================================HERO */
 
 .hero{
-
 background: var(--background-color);
+padding: 200px 0;
 }
+
 .main-title{
+    margin-bottom: 30px;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -181,8 +192,7 @@ margin-right: 50px;
 
 .page-header {
     border-bottom: #ececec 1px solid;
-    background-position: center;
-    max-width: 1600px;
+    
 }
 
 /* ================================DESCRIPTION*/
@@ -192,7 +202,6 @@ margin-right: 50px;
 }
 
 .desc{
-    margin-top: 30px;
     margin-bottom: 10px;
 font-size: 14px;
 font-weight: 700;
@@ -242,6 +251,7 @@ color: var(--text-color);
 .work {
     text-align: center;
     padding-bottom: 94px;
+    padding-top: 0;
 }
 
 .foto-list {
@@ -259,9 +269,11 @@ color: var(--text-color);
 }
 
 .worker {
+    margin-bottom: 10px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
+letter-spacing: 0.03em;
 text-align: center;
 color: var(--text-color);
 }
@@ -341,10 +353,6 @@ background: var(--background-color);
     padding-bottom: 60px;
 }
 
-.dark {
-    display: flex;
-    align-items: baseline;
-}
 
 .adress {
 font-style: normal;
@@ -395,3 +403,53 @@ letter-spacing: 0.03em;
 color: var(--mail-color);
 }
 
+.work-portfolio {
+    padding: 94px 0;
+}
+
+.btn-knob{
+    display: flex;
+justify-content: center;
+gap: 8px;
+}
+
+.div-portfolio {
+    background-color: var(--whitey-color);
+    border: 1px solid #eeeeee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;}
+
+.portfolio-btn{
+    padding-top: 6px;
+    padding-bottom: 6px;
+padding-left: 22px;
+padding-right: 22px;
+border-radius: 4px;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+cursor: pointer;
+border-color: transparent;
+}
+
+.port:hover,
+.port:focus {
+    color: var(--whitey-color);
+    background-color: var(--accent-color)
+}
+.card-set{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.bbtn{
+    color: var(--whitey-color);
+    background-color:var(--accent-color);
+    border-color: transparent;
+}
